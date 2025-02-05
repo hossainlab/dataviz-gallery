@@ -1,0 +1,8 @@
+name: dataviz-gallery
+channels:
+  - conda-forge 
+  - base 
+  - R 
+dependencies:
+  - r-base 
+  - r-tidyverse 

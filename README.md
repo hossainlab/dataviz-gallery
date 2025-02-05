@@ -7,4 +7,3 @@ Welcome to **DataViz Gallery**—a curated collection of compelling data visuali
 - 🎨 Advanced plots with **ggplot2** (R)  
 - 🏥 Use cases in **public health, epidemiology, and machine learning**  
 - 🔍 Interactive and static visualizations  
-
