@@ -1,27 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://quarto.org/index.html</loc>
-    <lastmod>2025-02-07T17:07:22.553Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hossainlab.github.io/dataviz/index.html</loc>
-    <lastmod>2025-02-07T17:07:22.553Z</lastmod>
-  </url>
-  <url>
     <loc>https://hossainlab.github.io/dataviz-gallery/index.html</loc>
-    <lastmod>2025-02-08T07:44:09.057Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hossainlab.github.io/dataviz-gallery/about.html</loc>
-    <lastmod>2025-02-07T16:47:29.653Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hossainlab.github.io/dataviz-gallery/packages.html</loc>
-    <lastmod>2025-02-07T18:43:05.951Z</lastmod>
+    <lastmod>2025-02-08T07:46:57.095Z</lastmod>
   </url>
   <url>
     <loc>https://hossainlab.github.io/dataviz-gallery/tools.html</loc>
-    <lastmod>2025-02-07T18:45:30.833Z</lastmod>
+    <lastmod>2025-02-08T07:45:24.063Z</lastmod>
   </url>
 </urlset>
