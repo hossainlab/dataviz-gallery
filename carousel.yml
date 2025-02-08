@@ -10,3 +10,11 @@
 - caption: "Dengue Situation in Bangladesh"
   image: "img/slider/dengue-dashboard.png"
   link: "#"
+
+- caption: "DESeq2 Results"
+  image: "img/slider/deseq2.png"
+  link: "#"
+
+- caption: "Mutation spectrum"
+  image: "img/slider/mutation_spectrum.png"
+  link: "#"
