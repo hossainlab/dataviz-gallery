@@ -48,7 +48,6 @@ carousel("gallery-carousel", 5000,
 
 #hero-banner {
   padding-top: 35px;
-  background-color: #ffffff;
 }
 
 #quarto-content main { 

@@ -3,7 +3,7 @@ pagetitle: "DataViz Gallery"
 format:
   html:
     toc: true
-#image: articles/advanced-layout-pdf.png
+image: articles/advanced-layout-pdf.png
 search: false
 execute:
   echo: false
@@ -48,7 +48,6 @@ carousel("gallery-carousel", 5000,
 
 #hero-banner {
   padding-top: 35px;
-  background-color: #ffffff;
 }
 
 #quarto-content main { 
