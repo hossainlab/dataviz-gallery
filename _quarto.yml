@@ -20,8 +20,8 @@ website:
     type: primary
     position: below-navbar
   title: "DataViz Gallery"
-  image: "logo.png"
-  favicon: "logo.png"
+  image: "img/share/banner.jpg"
+  favicon: "img/favicon.png"
   google-analytics: "G-XXXXXXX"
   open-graph: true
   twitter-card: true
@@ -35,7 +35,7 @@ website:
     palette: light
   navbar:
     pinned: true 
-    logo: logo.png
+    logo: img/logo.png
     logo-alt: "Site logo"
     title: false
     left:

@@ -3,7 +3,7 @@ pagetitle: "DataViz Gallery"
 format:
   html:
     toc: true
-image: articles/advanced-layout-pdf.png
+image: img/share/banner.png
 search: false
 execute:
   echo: false

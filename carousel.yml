@@ -1,12 +1,12 @@
 
 - caption: "Plotting MAF summary with maftools"
-  image: "slider/maftools-dashboard.png"
-  link: "#articles-reports"
+  image: "img/slider/maftools-dashboard.png"
+  link: "#"
   
 - caption: "Global Temperature"
-  image: "slider/temperature_index_plot.png"
-  link: "#presentations"
+  image: "img/slider/temperature_index_plot.png"
+  link: "#"
   
 - caption: "Dengue Situation in Bangladesh"
-  image: "slider/dengue-dashboard.png"
-  link: "#interactive-docs"
+  image: "img/slider/dengue-dashboard.png"
+  link: "#"
