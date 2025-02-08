@@ -1,0 +1,86 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "*.Rmd"
+    - "*.md"
+    - "!README.md"
+    - "!LICENSE.md"
+    - "!myresources/"
+    - "!matplotlib/"
+    - "!certificate*"
+    - "!projects_backup"
+
+website:
+  announcement: 
+    icon: info-circle
+    dismissable: true
+    content: "**Alert** - This Site is Under Construction - We’re working hard to improve your experience. Please check back soon for updates!"
+    type: primary
+    position: below-navbar
+  title: "DataViz Gallery"
+  image: "logo.png"
+  favicon: "logo.png"
+  google-analytics: "G-XXXXXXX"
+  open-graph: true
+  twitter-card: true
+  site-url: https://hossainlab.github.io/dataviz-gallery
+  page-navigation: true
+  bread-crumbs: true
+  search: false
+  cookie-consent:
+    type: express
+    style: headline
+    palette: light
+  navbar:
+    pinned: true 
+    logo: logo.png
+    logo-alt: "Site logo"
+    title: false
+    left:
+      - href: index.qmd
+        text: Home
+      - href: packages.qmd
+        text: Packages
+      - href: tools.qmd
+        text: Tools
+    right:
+      - icon: envelope
+        aria-label: email
+        href: "mailto:hossainmj@gmail.com"
+      - text: "{{< ai orcid>}}"
+        aria-label: orcid
+        href: https://orcid.org/0000-0001-9323-4997
+      - text: "{{< ai google-scholar >}}"
+        aria-label: google-scholar
+        href: https://scholar.google.com/citations?user=9_K4ekoAAAAJ&hl=en&authuser=5
+      - text: "{{< ai researchgate >}}"
+        aria-label: researchgate
+        href: https://scholar.google.com/citations?user=9_K4ekoAAAAJ&hl=en&authuser=5
+      - icon: linkedin
+        aria-label: linkedin
+        href: https://www.linkedin.com/in/hossainmj
+      - icon: twitter
+        aria-label: twitter
+        href: https://twitter.com/JHossain_28
+        rel: me
+      - icon: github
+        aria-label: github
+        href: https://github.com/hossainlab
+        rel: me
+      - icon: youtube
+        aria-label: youtube
+        href: https://www.youtube.com/@hossainlab
+        rel: me
+  page-footer: "&copy; Copyright 2025, Md. Jubayer Hossain"
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+editor: source
+

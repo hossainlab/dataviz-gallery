@@ -1,0 +1,89 @@
+# Sources:https://r-graph-gallery.com/best-dataviz-packages.html
+- category: Top 6 Packages for Data Visualization in R 
+  description: |
+    The best R packages for data visualization.
+  tiles:
+    - title: ggplot2
+      subtitle: for stattic data visualization
+      href: https://ggplot2.tidyverse.org/
+      code: https://github.com/tidyverse/ggplot2/
+      thumbnail: packages/ggplot2.png
+    - title: plotly
+      subtitle: for interactive data visualization
+      href: https://plotly.com/r/
+      code: https://github.com/plotly/plotly.R
+      thumbnail: packages/plotly2.png
+    - title: patchwork
+      subtitle: for combining multiple plots
+      href: https://patchwork.data-imaginist.com/
+      code: https://github.com/thomasp85/patchwork
+      thumbnail: packages/patchwork.png
+
+# ggplot2 extensions 
+- category: ggplot2 Extensions 
+  description: |
+    ggplot2 is very powerful on its own. But it gets even better thanks to its extensions.
+  tiles:
+    - title: ggstatsplot
+      subtitle: for statistical details
+      href: https://indrajeetpatil.github.io/ggstatsplot/
+      code: https://github.com/IndrajeetPatil/ggstatsplot
+      thumbnail: packages/ggstatsplot.png
+    - title: ggrepel
+      subtitle: for overlapping text
+      href: https://ggrepel.slowkow.com/
+      code: https://github.com/slowkow/ggrepel
+      thumbnail: packages/ggrepel.png
+    - title: gganimate
+      subtitle: for animation
+      href: https://gganimate.com/
+      code: https://github.com/thomasp85/gganimate
+      thumbnail: packages/gganimate.png
+
+# Maps 
+- category: R Packages for Geospatial Analysis 
+  description: |
+    The best R packages for geospatial data visualization.
+  tiles:
+    - title: tmap
+      subtitle: for thematic maps in R
+      href: https://r-tmap.github.io/tmap/
+      code: https://github.com/r-tmap/tmap/
+      thumbnail: packages/tmap.png
+    - title: sf
+      subtitle: for geospatial visualization
+      href: https://r-spatial.github.io/sf/index.html
+      code: https://github.com/r-spatial/sf/
+      thumbnail: packages/sf.png
+    - title: leaflet
+      subtitle: for creating interactive maps
+      href: https://rstudio.github.io/leaflet/
+      code: https://github.com/rstudio/leaflet/
+      thumbnail: packages/leaflet.png
+
+# Colors 
+- category: Colors 
+  description: |
+    The best R packages for dealing with colors.
+  tiles:
+    - title: viridis 
+      subtitle: for colorblind-friendly color maps for R
+      href: hhttps://sjmgarnier.github.io/viridis/
+      code: https://github.com/sjmgarnier/viridis/
+      thumbnail: packages/viridis.png
+    - title: paletteer 
+      subtitle: for all the color palettes together 
+      href: https://emilhvitfeldt.github.io/paletteer/
+      code: https://github.com/EmilHvitfeldt/paletteer
+      thumbnail: packages/paletteer.png
+
+# Table 
+- category: R Packages for Tables
+  description: |
+    The best R packages for creating tables.
+  tiles:
+    - title: gtsummary
+      subtitle: for publication-ready tables
+      href: https://www.danieldsjoberg.com/gtsummary/
+      code: https://github.com/ddsjoberg/gtsummary/
+      thumbnail: packages/gtsummary.png

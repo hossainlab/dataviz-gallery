@@ -1,0 +1,9 @@
+# Sources:https://r-graph-gallery.com/best-dataviz-packages.html
+- category: Top 6 Tools for Data Visualization
+  description: |
+    The best tools for data visualization.
+  tiles:
+    - title: Dataviz Decision Tree
+      #subtitle: for stattic data visualization
+      href: https://www.data-to-viz.com/
+      thumbnail: tools/decision-tree.png
