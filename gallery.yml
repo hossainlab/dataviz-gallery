@@ -22,6 +22,40 @@
       code: https://github.com/hossainlab
       thumbnail: code/tcga_workflow/figures/06_icg_correlation/PIK3R1_icg_correlation.png
 
+
+# Biological Data Visualization
+- category: Biological Data Visualizations 
+  description: |
+    A curated collection of reproduced and original data visualizations focused on biological data using R.
+  tiles:
+    - title: Bar plot - Variants per chromosome
+      code: https://github.com/hossainlab/dataviz-gallery/code/biological_dataviz/scripts/
+      thumbnail: code/biological_dataviz/figures/barplot_variants_per_chromosome.png
+    - title: Histogram - Variant size distribution
+      code: https://github.com/hossainlab/dataviz-gallery/code/biological_dataviz/scripts/
+      thumbnail: code/biological_dataviz/figures/histogram_variant_size.png
+    - title: Scatter plot - Reference vs. Query Distance
+      code: https://github.com/hossainlab/dataviz-gallery/code/biological_dataviz/scripts/
+      thumbnail: code/biological_dataviz/figures/scatter_ref_vs_query.png
+    - title: Violin plot - Variant size by type
+      code: https://github.com/hossainlab/dataviz-gallery/code/biological_dataviz/scripts/
+      thumbnail: code/biological_dataviz/figures/violinplot_variant_size.png
+    - title: Density plot - Density plot of variant sizes 
+      code: https://github.com/hossainlab/dataviz-gallery/code/biological_dataviz/scripts/
+      thumbnail: code/biological_dataviz/figures/densityplot_variant_size.png
+    - title: Pie chart - Variant type distribution
+      code: https://github.com/hossainlab/dataviz-gallery/code/biological_dataviz/scripts/
+      thumbnail: code/biological_dataviz/figures/piechart_variant_types.png
+    - title: Venn Diagram
+      code: https://github.com/hossainlab/dataviz-gallery/code/biological_dataviz/scripts/
+      thumbnail: code/biological_dataviz/figures/venn_genes.png
+
+
+
+
+
+
+
 # A Curated Collection
 - category: Reproducing Plots with R - A Curated Collection
   description: |

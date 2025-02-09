@@ -12,7 +12,7 @@ library(ggplot2)
 theme_set(theme_gray())
 
 # Loading the data
-filename <- "Lesson-07/variants_from_assembly.bed"
+filename <- "data/variants_from_assembly.bed"
 my_data <- read.csv(filename, sep="\t", quote='', stringsAsFactors=TRUE,header=FALSE)
 names(my_data) <- c("chrom","start","stop","name","size","strand","type","ref.dist","query.dist")
 
@@ -59,7 +59,6 @@ ggplot(my_data, aes(x=size,fill=type)) + geom_dotplot() + xlim(5000,10000) + fac
 
 
 # Inset figures:
-
 # Our special publication-style theme from Lesson 5 "Tweaking everything in your plots"
 theme_set(theme_gray() + 
               theme(
@@ -87,7 +86,7 @@ library(grid)
 vp <- viewport(width = 0.8, height = 0.7, x = 0.65, y = 0.65)
                 # width, height, x-position, y-position of the smaller plot
 
-png("Lesson-07/inset_plot.png")
+png("figures/inset_plot.png")
 print(big_plot)
 print(small_plot, vp = vp)
 dev.off()

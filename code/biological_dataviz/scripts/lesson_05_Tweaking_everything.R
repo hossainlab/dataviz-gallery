@@ -15,7 +15,7 @@
 
 library(ggplot2)
 
-filename <- "Lesson-05/Encode_HMM_data.txt"
+filename <- "data/Encode_HMM_data.txt"
 my_data <- read.csv(filename, sep="\t", header=FALSE)
 names(my_data)[1:4] <- c("chrom","start","stop","type")
 
@@ -167,8 +167,6 @@ basic + theme(
     ) 
 
 # Mix and match
-
-
 # Change background color
 basic + theme(panel.background = element_rect(fill="pink"))
 basic + theme(panel.background = element_rect(fill="white"))

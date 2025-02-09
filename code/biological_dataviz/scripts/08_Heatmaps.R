@@ -1,6 +1,6 @@
 # ==========================================================
 #
-#      Lesson 8 -- Heatmaps
+#      Heatmaps
 #      •   Dendrograms
 #      •   To cluster or not to cluster
 #      •   Flipping axes
@@ -18,15 +18,10 @@
 # biocLite("ComplexHeatmap")
 
 library(ComplexHeatmap)
-
-
 # Heatmap from single-cell copy number data
 
-# Select a data file
-filename <- "Lesson-08/copy_number_data.txt"
-
 # Read the data into a data.frame
-my_data <- read.table("copy_number_data.txt", sep="\t", quote="", stringsAsFactors=FALSE,header=TRUE)
+my_data <- read.table("data/copy_number_data.txt", sep="\t", quote="", stringsAsFactors=FALSE,header=TRUE)
 
 head(my_data)
 
@@ -116,7 +111,6 @@ Heatmap(my_matrix,
 
 
 # We can split the heatmap into clusters
-
 Heatmap(my_matrix, 
         cluster_columns=FALSE,
         row_names_side = "left", 
