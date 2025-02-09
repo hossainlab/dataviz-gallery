@@ -1,14 +1,74 @@
-- category: Dataviz Inspiration
+# Cancer Bioinformatics Visualizations 
+- category: Cancer Bioinformatics 
   description: |
-    A curated collection of data visualization inspirations.
+    The Cancer Bioinformatics Visualizations Gallery presents interactive visualizations of cancer data, including genomic, transcriptomic, and proteomic insights. It helps researchers and clinicians explore molecular mechanisms, patient outcomes, and potential therapeutic targets through intuitive visual tools.
   tiles:
-    - title: New Covid-19 cases, US
-      subtitle: by The New York Times
-      href: https://www.nytimes.com/2022/01/06/opinion/omicron-covid-us.html
+    - title: Tumor-normal box plot
+      code: https://github.com/hossainlab/dataviz-gallery
+      thumbnail: tcga_workflow/figures/01_pan_cancer_tumor_vs_normal/PIK3R1_box_plot.png
+    - title: Paired tumor-normal box plot
       code: https://github.com/hossainlab
-      thumbnail: dataviz-inspirations/omicron-NYT.png
-    - title: Mario Kart world's records
-      subtitle: by  Cédric Scherer
-      href: https://r-graph-gallery.com/web-lollipop-plot-with-r-mario-kart-64-world-records.html
+      thumbnail: tcga_workflow/figures/02_pan_cancer_paired_tumor_vs_normal/PIK3R1_paired_box_plot.png
+    - title: Pan-tumor box plot
       code: https://github.com/hossainlab
-      thumbnail: dataviz-inspirations/lollipop-plot-with-r-mario-kart-64-world-records.png
+      thumbnail: tcga_workflow/figures/03_pan_tumor/PIK3R1_box_plot.png
+    - title: Gene expression and TMB correlation radar chart
+      code: https://github.com/hossainlab
+      thumbnail: tcga_workflow/figures/04_pan_cancer_tmb_correlation/PIK3R2_tmb_correlation_radar.png
+    - title: Gene expression and MSI correlation radar chart
+      code: https://github.com/hossainlab
+      thumbnail: tcga_workflow/figures/05_pan_cancer_msi_correlation/PIK3R2_msi_correlation_radar.png
+    - title: Gene expression and ICGs correlation
+      code: https://github.com/hossainlab
+      thumbnail: tcga_workflow/figures/06_icg_correlation/PIK3R1_icg_correlation.png
+
+# A Curated Collection
+- category: Reproducing Plots with R - A Curated Collection
+  description: |
+    A curated collection of reproduced data visualizations using R.
+  tiles:
+    - title: US Gun Homicide Rate Higher Than Other Developed Countries
+      subtitle: by ABC News
+      href: https://abcnews.go.com/blogs/headlines/2012/12/us-gun-ownership-homicide-rate-higher-than-other-developed-countries/
+      code: https://github.com/hossainlab/dataviz-gallery
+      thumbnail: reproduce-with-r/figures/homicide_plot.png
+    - title: Gun Murders per 100,000 residents
+      subtitle: by Everytown
+      href: https://everytownresearch.org/
+      code: https://github.com/hossainlab/dataviz-gallery
+      thumbnail: reproduce-with-r/figures/gun_murders_plot.png
+    - title: Battling Infectious Diseases
+      subtitle: by Wall Street Journal
+      href: https://graphics.wsj.com/infectious-diseases-and-vaccines/?mc_cid=711ddeb86e
+      code: https://github.com/hossainlab/dataviz-gallery
+      thumbnail: reproduce-with-r/figures/battling_infectious_diseases_plot.png
+    - title: City to Toughen Auditing of School Test Scores
+      subtitle: by New York Times
+      href: https://www.nytimes.com/2011/02/19/nyregion/19schools.html
+      code: https://github.com/hossainlab/dataviz-gallery
+      thumbnail: reproduce-with-r/figures/diploma_score_plot.png
+    - title: Who will win the presidency?
+      subtitle: by fivethirtyeight
+      href: https://projects.fivethirtyeight.com/2016-election-forecast/
+      code: https://github.com/hossainlab/dataviz-gallery
+      thumbnail: reproduce-with-r/figures/voting_plot.png
+    - title: Temperature anomaly
+      subtitle: by NOAA
+      href: https://simplystatistics.org/posts/2019-07-19-more-datasets-for-teaching-data-science-the-expanded-dslabs-package/
+      code: https://github.com/hossainlab/dataviz-gallery
+      thumbnail: reproduce-with-r/figures/temperature_anomaly .png
+
+
+# Dataviz Inspiration
+# - category: Dataviz Inspiration
+#   description: |
+#     A curated collection of data visualization inspirations.
+  # tiles:
+  #   - title: New Covid-19 cases, US
+  #     subtitle: by The New York Times
+  #     href: https://www.nytimes.com/2022/01/06/opinion/omicron-covid-us.html
+  #     thumbnail: dataviz-inspirations/omicron-NYT.png
+  #   - title: Mario Kart world's records
+  #     subtitle: by  Cédric Scherer
+  #     href: https://r-graph-gallery.com/web-lollipop-plot-with-r-mario-kart-64-world-records.html
+  #     thumbnail: dataviz-inspirations/lollipop-plot-with-r-mario-kart-64-world-records.png

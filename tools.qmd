@@ -42,7 +42,6 @@ carousel("gallery-carousel", 5000,
 ::: {#tools .column-page}
 :::
 
-
 ```{=html}
 <style>
 

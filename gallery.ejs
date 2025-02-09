@@ -1,6 +1,5 @@
 
 ```{=html}
-
 <% for (const item of items) { %>
 
 <h2><%- item.category %></h2>
@@ -10,7 +9,7 @@
 <div class="list grid" style="column-gap: 10px;">
 
 <% for (const tile of item.tiles) { %>
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" <%= metadataAttrs(tile) %>>
+  <div class="card border-2 g-col-12 g-col-sm-6 g-col-md-4 mb-2" <%= metadataAttrs(tile) %>>
     <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
       <small class="card-text inline-block">
         <a href="<%- tile.href %>" class="listing-title"><%= tile.title %></a>
@@ -23,8 +22,8 @@
         <span class="text-muted listing-subtitle"><%= tile.subtitle %></span>
       </small>
     </div>
-    <a href="<%- tile.href %>">
-      <img src="<%- tile.thumbnail %>" alt="<%- tile.description %>" class="card-img-top"/>
+    <a href="#" class="lightbox-trigger" data-src="<%- tile.thumbnail %>">
+      <img src="<%- tile.thumbnail %>" alt="<%- tile.description %>" class="card-img-top hover-effect"/>
     </a>
     
     <% if (tile.publicationdate) { %> 
@@ -38,4 +37,84 @@
 
 <% } %>
 
+<!-- Lightbox Container -->
+<div id="lightbox" class="lightbox" style="display: none;">
+  <div class="lightbox-content">
+    <span class="close-btn">&times;</span>
+    <img id="lightbox-img" src="" alt="">
+  </div>
+</div>
+
+<!-- Lightbox Script -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImg = document.getElementById("lightbox-img");
+    const closeBtn = document.querySelector(".close-btn");
+    
+    document.querySelectorAll(".lightbox-trigger").forEach(item => {
+      item.addEventListener("click", function (e) {
+        e.preventDefault();
+        lightboxImg.src = this.getAttribute("data-src");
+        lightbox.style.display = "flex";
+      });
+    });
+    
+    closeBtn.addEventListener("click", function () {
+      lightbox.style.display = "none";
+    });
+    
+    lightbox.addEventListener("click", function (e) {
+      if (e.target === lightbox) {
+        lightbox.style.display = "none";
+      }
+    });
+  });
+</script>
+
+<!-- Lightbox Styles -->
+<style>
+  .lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  .lightbox-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  .lightbox img {
+    max-width: 90%;
+    max-height: 80vh;
+    margin-top: 10px;
+  }
+  .close-btn {
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+  }
+  .hover-effect {
+    transition: transform 0.3s ease-in-out;
+  }
+  .hover-effect:hover {
+    transform: scale(1.05);
+  }
+</style>
 ```

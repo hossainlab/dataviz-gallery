@@ -1,5 +1,6 @@
 ---
 pagetitle: "DataViz Gallery"
+lightbox: true 
 format:
   html:
     toc: true
