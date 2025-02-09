@@ -21,6 +21,15 @@
     - title: Gene expression and ICGs correlation
       code: https://github.com/hossainlab
       thumbnail: code/tcga_workflow/figures/06_icg_correlation/PIK3R1_icg_correlation.png
+    - title: Gene expression and Chemokine correlation 
+      code: https://github.com/hossainlab
+      thumbnail: code/tcga_workflow/figures/07_chemokine_correlation/PIK3R1_chemokine_correlation.png
+    - title: Gene expression and Chemokine receptor correlation
+      code: https://github.com/hossainlab
+      thumbnail: code/tcga_workflow/figures/08_chemokine_receptor_correlation/PIK3R1_chemokine_receptor_correlation.png
+    - title: Gene expression and Immune stimulator correlation
+      code: https://github.com/hossainlab
+      thumbnail: code/tcga_workflow/figures/09_immune_stimulator_correlation/PIK3R1_immune_stimulator_correlation.png
 
 
 # Biological Data Visualization
@@ -51,6 +60,14 @@
       thumbnail: code/biological_dataviz/figures/venn_genes.png
 
 
+# Mutational Pattern Analysis 
+- category: Mutational Pattern Analysis 
+  description: |
+    Mutational Pattern Analysis using R.
+  tiles:
+    - title: Bar plot - Variants per chromosome
+      code: https://github.com/hossainlab/dataviz-gallery/code/biological_dataviz/scripts/
+      thumbnail: code/biological_dataviz/figures/barplot_variants_per_chromosome.png
 
 
 
