@@ -1,6 +1,6 @@
 # ==========================================================
 #
-#      Lesson 2 -- Importing and downloading data
+#      Importing and downloading data
 #      •   Importing data from Excel
 #      •   Downloading from UCSC
 #      •   Downloading from ENSEMBL
@@ -15,7 +15,7 @@
 
 filename <- "Lesson-02/micro_array_results_table1.txt"
 
-my_data <- read.csv(filename, sep="\t", header=TRUE)
+my_data <- read.csv("data/micro_array_results_table1.txt", sep="\t", header=TRUE)
 head(my_data)
 
 

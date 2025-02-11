@@ -3,6 +3,7 @@ library(BSgenome) # for available ref-genome
 library(MutationalPatterns) # for mutational signature analysis 
 library(NMF) # for non-negative matrix factorization(NMF or NNMF)
 library(patchwork) # for managing plots and grid system 
+library(tidyverse)
 
 # List vailable genomes 
 head(available.genomes())
@@ -26,7 +27,6 @@ vcfs <- read_vcfs_as_granges(vcf_files, sample_names, ref_genome)
 mut_mat <- mut_matrix(vcf_list=vcfs, ref_genome = ref_genome)
 head(mut_mat)
 
-
 # De novo mutational signature extraction using NMF
 mut_mat <- mut_mat + 0.0001 
 estimate <- nmf(mut_mat, rank=2:5, method = "brunet", nrun=10, seed=123456) 
@@ -35,13 +35,10 @@ plot(estimate)
 # Save the NMF estimation plot
 ggsave("figures/nmf_estimate.png", dpi = 300)
 
-
 # Heatmap 
+png("figures/nmf_heatmap.png", height = 1200, width = 1200)
 consensusmap(estimate)
-
-# Save the NMF heatmap
-ggsave("figures/nmf_estimate.png", dpi = 300)
-
+dev.off()
 
 # Mutational Signatures Extraction 
 nmf_res <- extract_signatures(mut_mat, rank = 2, nrun=10)
@@ -121,11 +118,9 @@ ggsave("figures/cosmic_signatures.png", dpi = 300)
 
 
 # COSMIC dendrogram
-hclust_cosmic = cluster_signatures(cancer_signatures, method = "average")
-cosmic_order = colnames(cancer_signatures)[hclust_cosmic$order]
+png("figures/cosmic_dendrogram.png", width = 1200, height = 1200)
 plot(hclust_cosmic)
-ggsave("figures/cosmic_dendrogram.png", dpi = 300)
-
+dev.off()
 
 # cosine similarity heatmap
 cos_sim(mut_mat[,1], cancer_signatures[,1])
