@@ -94,20 +94,6 @@
       code: https://github.com/hossainlab/dataviz-gallery/tree/main/code/biological_dataviz/scripts
       thumbnail: code/biological_dataviz/figures/venn_genes.png
 
-
-# Mutational Pattern Analysis 
-- category: Mutational Pattern Analysis 
-  description: |
-    Mutational Pattern Analysis using R.
-  tiles:
-    - title: Bar plot - Variants per chromosome
-      code: https://github.com/hossainlab/dataviz-gallery/code/biological_dataviz/scripts/
-      thumbnail: code/biological_dataviz/figures/barplot_variants_per_chromosome.png
-
-
-
-
-
 # A Curated Collection
 - category: Reproducing Plots with R - A Curated Collection
   description: |
