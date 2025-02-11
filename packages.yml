@@ -8,11 +8,26 @@
       href: https://ggplot2.tidyverse.org/
       code: https://github.com/tidyverse/ggplot2/
       thumbnail: img/packages/ggplot2.png
+    - title: ggpubr
+      subtitle: for ‘ggplot2’ Based Publication Ready Plots
+      href: https://rpkgs.datanovia.com/ggpubr/
+      code: https://github.com/kassambara/ggpubr/
+      thumbnail: img/packages/ggpubr.png
+    - title: sjPlot 
+      subtitle: for Statistics in Social Science
+      href: https://strengejacke.github.io/sjPlot/
+      code: https://github.com/strengejacke/sjPlot/
+      thumbnail: img/packages/sjPlot.png
     - title: plotly
       subtitle: for interactive data visualization
       href: https://plotly.com/r/
       code: https://github.com/plotly/plotly.R
       thumbnail: img/packages/plotly2.png
+    - title: Highcharter 
+      subtitle: for  flexible and customizable javascript charting library
+      href: https://jkunst.com/highcharter/
+      code: https://github.com/jbkunst/highcharter/
+      thumbnail: img/packages/highcharter.png
     - title: patchwork
       subtitle: for combining multiple plots
       href: https://patchwork.data-imaginist.com/
@@ -39,6 +54,41 @@
       href: https://gganimate.com/
       code: https://github.com/thomasp85/gganimate
       thumbnail: img/packages/gganimate.png
+
+# Bioinformatics 
+- category: Top 6 Packages for Bioinformatics 
+  description: |
+    The best R packages for data visualization in bioinformatics.
+  tiles:
+    - title: Bioconductor
+      subtitle: for the analysis and comprehension of high-throughput genomic data
+      href: https://www.bioconductor.org/
+      code: https://github.com/bioconductor
+      thumbnail: img/packages/bioconductor.png
+    - title: Bioconductor
+      subtitle: for the analysis and comprehension of high-throughput genomic data
+      href: https://www.bioconductor.org/
+      code: https://github.com/bioconductor
+      thumbnail: img/packages/bioconductor.png
+    - title: Bioconductor
+      subtitle: for the analysis and comprehension of high-throughput genomic data
+      href: https://www.bioconductor.org/
+      code: https://github.com/bioconductor
+      thumbnail: img/packages/bioconductor.png
+    - title: Bioconductor
+      subtitle: for the analysis and comprehension of high-throughput genomic data
+      href: https://www.bioconductor.org/
+      code: https://github.com/bioconductor
+      thumbnail: img/packages/bioconductor.png
+    - title: Bioconductor
+      subtitle: for the analysis and comprehension of high-throughput genomic data
+      href: https://www.bioconductor.org/
+      code: https://github.com/bioconductor
+      thumbnail: img/packages/bioconductor.png
+    
+
+
+
 
 # Maps 
 - category: R Packages for Geospatial Analysis 
